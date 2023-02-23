@@ -6,8 +6,11 @@ public class Metodusok {
 
  
     public static void main(String[] args) {
-        kiir("ElsÅ‘ 10 szÃ¡m Ã¶sszege:" + elso10SzamOsszege());
-        kiir("KÃ©t szÃ¡m Ã¶sszege:" + osszead(5, 2));
+        kiir("Elsõ 10 szám összege:" + elso10SzamOsszege());
+        kiir("Két szám összege:" + osszead(5, 2));
+        int szam1 = 7, szam2 = 4;
+        int osszeg = osszead(szam1, szam2);
+        kiir("%d + %d = %d\n".formatted(szam1, szam2, osszeg));
     }
     private static int elso10SzamOsszege(){
         int osszeg = 0;
