@@ -13,7 +13,16 @@ public class Metodusok {
         kiir("%d + %d = %d\n".formatted(szam1, szam2, osszeg));
         //írjunk ki 4 szám összegét
         int negySzamOsszeg = osszead(szam1, szam2)+osszead(szam1, szam2);
-        kiir("4 Szám összege:"+negySzamOsszeg);
+        kiir("4 Szám összege:"+ negySzamOsszeg);
+        int szam3 = 3;
+        int szam4 = 2;
+        osszeg = osszead(szam3, szam4);
+        osszeg += osszead(osszeg, szam2);
+        double gyok = Math.sqrt(osszeg);
+        kiir("%d+%d+%d gyoke = %4f\n".formatted(szam3,szam4,szam2,gyok));
+        
+        
+ 
     }
     private static int elso10SzamOsszege(){
         int osszeg = 0;
