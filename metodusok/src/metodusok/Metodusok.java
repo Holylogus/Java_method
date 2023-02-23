@@ -18,9 +18,6 @@ public class Metodusok {
         kiir("4 Szám összege:"+ negySzamosszege(szam1, szam2, szam3, szam4));
         
         kiir("%d+%d+%d gyoke = %4f\n".formatted(szam3,szam4,szam2,gyokvonas(szam1, szam3, szam4)));
-        
-        
-        
  
     }
     private static double gyokvonas(int a, int b, int c){
